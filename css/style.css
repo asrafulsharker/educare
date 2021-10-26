@@ -221,7 +221,9 @@ label {
 .separator {
     border-bottom: 1px solid #f2f2f2
 }
-
+.logo img{
+    height: 100px;
+}
 /* button style */
 .btn {
     -moz-user-select: none;
