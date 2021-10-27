@@ -1904,7 +1904,7 @@ span.student-lecture-number {
 .team-social-info {
 	position: absolute;
 	bottom: 69px;
-	margin-bottom: 23px;
+	margin-bottom: 60px;
 	opacity: 0;
 	visibility: hidden;
 	transition: all ease-out;
