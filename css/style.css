@@ -1646,7 +1646,23 @@ span.student-lecture-number {
 .advisors-details-form.events-details-form {
     padding-left: 0;
 }
-
+.events-thumb img{
+    height: 154px;
+    width: 170px;
+}
+.notice_btn_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notice_board_heading{
+    
+}
+.notice_btn{
+    background-color: #1696e7;
+    text-decoration: none;
+    color: #ffff;
+}
 .reviews-author-title h1 {
     font-size: 14px;
     color: #555555;
