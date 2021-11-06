@@ -3245,22 +3245,27 @@ span.published-time.published-location {
 .footer-logo {
     margin-bottom: 19px;
 }
-
+.footer-logo img{
+    height: 70px;
+}
 .footer-para p {
     font-size: 13px;
     line-height: 26px;
     color: #fff;
-    opacity: .66;
+    /* opacity: .66; */
     margin: 0;
 }
 
 .footer-socila-icon span {
     font-size: 16px;
-    color: #cbcbcb;
+    color: #fff;
     font-weight: 700;
     line-height: 1;
 }
-
+.footer-widget ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 .footer-social-icon-list ul li {
     display: inline-block;
     margin-right: 19px;
@@ -3358,7 +3363,7 @@ span.footer-published-time {
 span.footer-contact-list-text {
     font-size: 13px;
     color: #fff;
-    opacity: .66;
+    /* opacity: .66; */
     margin-left: 9px;
 }
 
@@ -3387,5 +3392,5 @@ span.opening-date {
 
 .footer-copyright span {
     font-size: 15px;
-    color: #949494;
+    color: #fff;
 }
