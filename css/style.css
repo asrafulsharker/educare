@@ -1228,6 +1228,11 @@ li.shopping-cart a {
 
 .course-main-content {
     border-bottom: 1px solid #e4e4e4;
+    transition-delay: 1s;
+}
+.course-main-content :hover{
+    /* background-color: #1696e7; */
+    /* color: #fff !important; */
 }
 
 .courses-single-icon:last-child {
@@ -3393,4 +3398,35 @@ span.opening-date {
 .footer-copyright span {
     font-size: 15px;
     color: #fff;
+}
+
+
+
+/**
+ * Simple fade transition,
+ */
+ .mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
 }
