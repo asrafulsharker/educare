@@ -1,0 +1,9 @@
+.card_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    margin-bottom: 10px !important;
+}
